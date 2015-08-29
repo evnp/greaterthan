@@ -9,7 +9,7 @@ Now you can type a keyword followed by `enter` to go to a mapped url. If a keywo
 
 You'll also need to have a webserver running for new keywords/urls to be saved. Right now only a local webserver is supported, using Flask. From the `greaterthan` root directory, run
 ```
-$ pip install flask
-$ pip install -U flask-cors
-$ python server.py
+pip install flask
+pip install -U flask-cors
+python server.py
 ```
