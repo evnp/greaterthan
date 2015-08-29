@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": ">",
+  "description": "maps keywords to urls",
+  "version": "1.0",
+  "omnibox": {
+    "keyword": ">"
+  },
+  "icons": {
+    "16": "icon.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["greaterthan.js"]
+  },
+  "permissions": [
+    "http://localhost:5000/*"
+  ]
+}
